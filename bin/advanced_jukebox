@@ -4,13 +4,24 @@ require_relative "../lib/advanced_jukebox"
 
 
 my_songs = {
-"Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-"Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
+"Go Go GO" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/04.mp3',
+"Wolf" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/05.mp3',
+"Blue" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/Users/marcomiranda/Dev/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
+run(my_songs)
+
+my_songs = {
+"Go Go GO" => 'audio/Emerald-Park/01.mp3',
+"LiberTeens" => 'audio/Emerald-Park/02.mp3',
+"Hamburg" =>  'audio/Emerald-Park/03.mp3',
+"Guiding Light" => 'audio/Emerald-Park/04.mp3',
+"Wolf" => 'audio/Emerald-Park/05.mp3',
+"Blue" => 'audio/Emerald-Park/06.mp3',
+"Graduation Failed" => 'audio/Emerald-Park/07.mp3'
+}
 run(my_songs)
